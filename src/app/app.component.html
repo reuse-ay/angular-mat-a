@@ -1,0 +1,18 @@
+button
+<a mat-raised-button href="http://example.com" disabled="">
+  href
+</a>
+<a mat-raised-button [routerLink]="'abc'" disabled="">
+  routerLink
+</a>
+menu
+<button mat-button [mat-menu-trigger-for]="menu">menu</button>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item href="http://example.com" disabled="">
+    href
+  </a>
+  <a mat-menu-item [routerLink]="'abc'" disabled="">
+    routerLink
+  </a>
+</mat-menu>
+<router-outlet></router-outlet>
