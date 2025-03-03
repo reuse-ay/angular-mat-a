@@ -1,3 +1,5 @@
+https://github.com/angular/components/issues/30203
+
 # AngularMatA
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
